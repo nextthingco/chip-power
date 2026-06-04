@@ -2,7 +2,7 @@ Source: chip-power
 Section: unknown
 Priority: optional
 Maintainer: Jose Torres <software@nextthing.co>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper-compat (= 13)
 Standards-Version: 3.9.5
 Homepage: nextthing.co
 Git: https://github.com/NextThingCo/chip-power

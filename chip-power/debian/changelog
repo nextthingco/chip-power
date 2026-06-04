@@ -1,3 +1,10 @@
+chip-power (0.6) trixie; urgency=high
+
+  * Some debian/ file cleanups
+  * Special thanks to Jon of jfpossibilities.com for making this possible by hosting an archive of these packages
+
+ -- Ben Young <computermouth@proton.me>  Thu, 04 Jun 2026 17:34:00 -0500
+
 chip-power (0.5) unstable; urgency=low
 
   * usage.txt fixes from combs
