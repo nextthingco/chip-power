@@ -136,8 +136,10 @@ do
 			echo "Monitor AC power and lipo battery state with the AXP209."
 			echo "No warranties. Use at your own risk"
 			echo "For usage see $0 --usage"
-
-			if ! hash -t i2cget
+			
+			which -s i2cget
+			HAS_I2C=$?
+			if [ $HAS_I2C -ne 0 ]
 			then
 				echo "Error: it seems you need to run 'apt-get install i2c-tools'"
 				exit 2

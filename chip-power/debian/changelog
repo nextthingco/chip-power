@@ -1,5 +1,6 @@
 chip-power (0.6) trixie; urgency=high
 
+  * remove hash usage from axp209
   * Some debian/ file cleanups
   * Special thanks to Jon of jfpossibilities.com for making this possible by hosting an archive of these packages
 
