@@ -2,6 +2,7 @@ chip-power (0.6) trixie; urgency=high
 
   * remove hash usage from axp209
   * Some debian/ file cleanups
+  * Don't enable enable-no-limit
   * Special thanks to Jon of jfpossibilities.com for making this possible by hosting an archive of these packages
 
  -- Ben Young <computermouth@proton.me>  Thu, 04 Jun 2026 17:34:00 -0500
