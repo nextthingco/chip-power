@@ -1,3 +1,4 @@
 sbin/* /usr/sbin/
 axp209/* /etc/axp209/
 system/* /usr/lib/systemd/system/
+modules-load.d/* /usr/lib/modules-load.d/

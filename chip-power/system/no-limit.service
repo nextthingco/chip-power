@@ -1,5 +1,10 @@
 [Unit]
 ConditionFileIsExecutable=/usr/sbin/enable-no-limit
+# only run if i2c is loaded and device 0 exists
+# todo, is there a way to verify i2c0 is the axp209?
+# if not, are we going to blow shit up here?
+ConditionPathExists=|/dev/i2c-0
+ConditionPathExists=|/dev/i2c/0
 DefaultDependencies=no
 After=sysinit.target local-fs.target
 Before=basic.target
